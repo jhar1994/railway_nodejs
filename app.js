@@ -132,5 +132,5 @@ app.get("/about", function(req, res){
 });
 
 app.listen(PORT, () => {
-  console.log('Server started');
+  console.log('Server started $ {PORT}');
 });
