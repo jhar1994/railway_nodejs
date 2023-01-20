@@ -130,6 +130,6 @@ app.get("/about", function(req, res){
   res.render("about");
 });
 
-app.listen(PORT, function() {
-  console.log('Server started on the ${PORT}');
+app.listen(PORT, () => {
+  console.log('Server started');
 });
