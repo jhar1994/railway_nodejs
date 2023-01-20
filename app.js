@@ -6,7 +6,7 @@ const _=require("lodash");
 
 
 const app = express();
-const PORT=process.env.PORT|| 3997;
+const PORT=process.env.PORT|| 80;
 // let items=["Buy Food","Cook Food","Eat Food"];
 // let workItems = [];
 app.set('view engine', 'ejs');
